@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+	<title>Performax Cinema</title>
+	
+	<!-- style -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<header>
+
+		<div id="header">
+			<div class="wrapper">
+				<h1>Cinema ticket booking site</h1>
+			</div>
+		</div>
+		
+		<div class="movie-container">
+
+			<label>Pick a movie:</label>
+			<select id="movie">
+				<option value="10">Avengers: Endgame ($10)</option>
+				<option value="12">Joker ($12)</option>
+				<option value="8">Toy Story 4 ($8)</option>
+				<option value="9">The Lion King ($9)</option>
+			</select>
+
+		</div>
+
+	</header>
+
+	<main>
+		<div id="main-content">
+			<div class="wrapper">
+				<div class="days-container">
+					<div class="the-day">
+						<h2 id="first-t" >Monday</h2>
+						<div class="time">
+							<h3>10:00</h3>
+							<div class="the-day-container">
+								<button id="seat1" class="my-btn" onclick="obsadit(this.id)"></button>
+								<button id="seat2" onclick="obsadit(this.id)"></button>
+								<button id="seat3" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>
+						<div class="time">
+							<h3>12:00</h3>
+							<div class="the-day-container">
+								<button id="seat4" onclick="obsadit(this.id)"></button>
+								<button id="seat5" onclick="obsadit(this.id)"></button>
+								<button id="seat6" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>   
+						<div class="time">
+							<h3>14:00</h3>
+							<div class="the-day-container">
+								<button id="seat7" onclick="obsadit(this.id)"></button>
+								<button id="seat8" onclick="obsadit(this.id)"></button>
+								<button id="seat9" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>   
+						<div class="time">
+							<h3>16:00</h3>
+							<div class="the-day-container">
+								<button id="seat10" onclick="obsadit(this.id)"></button>
+								<button id="seat11" onclick="obsadit(this.id)"></button>
+								<button id="seat12" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>   
+						<div class="time">
+							<h3>18:00</h3>
+							<div class="the-day-container">
+								<button id="seat13" onclick="obsadit(this.id)"></button>
+								<button id="seat14" onclick="obsadit(this.id)"></button>
+								<button id="seat15" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>   
+						<div class="time">
+							<h3>20:00</h3>
+							<div class="the-day-container">
+								<button id="seat16" onclick="obsadit(this.id)"></button>
+								<button id="seat17" onclick="obsadit(this.id)"></button>
+								<button id="seat18" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>       
+					</div>
+					<div class="the-day">
+						<h2>Wednesday</h2>
+						<div class="time">
+							<h3>10:00</h3>
+							<div class="the-day-container">
+								<button id="seat19" onclick="obsadit(this.id)"></button>
+								<button id="seat20" onclick="obsadit(this.id)"></button>
+								<button id="seat21" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>
+						<div class="time">
+							<h3>12:00</h3>
+							<div class="the-day-container">
+								<button id="seat22" onclick="obsadit(this.id)"></button>
+								<button id="seat23" onclick="obsadit(this.id)"></button>
+								<button id="seat24" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>   
+						<div class="time">
+							<h3>14:00</h3>
+							<div class="the-day-container">
+								<button id="seat25" onclick="obsadit(this.id)"></button>
+								<button id="seat26" onclick="obsadit(this.id)"></button>
+								<button id="seat27" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>   
+						<div class="time">
+							<h3>16:00</h3>
+							<div class="the-day-container">
+								<button id="seat28" onclick="obsadit(this.id)"></button>
+								<button id="seat29" onclick="obsadit(this.id)"></button>
+								<button id="seat30" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>   
+						<div class="time">
+							<h3>18:00</h3>
+							<div class="the-day-container">
+								<button id="seat31" onclick="obsadit(this.id)"></button>
+								<button id="seat32" onclick="obsadit(this.id)"></button>
+								<button id="seat33" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>   
+						<div class="time">
+							<h3>20:00</h3>
+							<div class="the-day-container">
+								<button id="seat34" onclick="obsadit(this.id)"></button>
+								<button id="seat35" onclick="obsadit(this.id)"></button>
+								<button id="seat36" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>       
+					</div>
+					<div class="the-day">
+						<h2>Friday</h2>
+						<div class="time">
+							<h3>10:00</h3>
+							<div class="the-day-container">
+								<button id="seat37" onclick="obsadit(this.id)"></button>
+								<button id="seat38" onclick="obsadit(this.id)"></button>
+								<button id="seat39" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>
+						<div class="time">
+							<h3>12:00</h3>
+							<div class="the-day-container">
+								<button id="seat40" onclick="obsadit(this.id)"></button>
+								<button id="seat41" onclick="obsadit(this.id)"></button>
+								<button id="seat42" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>   
+						<div class="time">
+							<h3>14:00</h3>
+							<div class="the-day-container">
+								<button id="seat43" onclick="obsadit(this.id)"></button>
+								<button id="seat44" onclick="obsadit(this.id)"></button>
+								<button id="seat45" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>   
+						<div class="time">
+							<h3>16:00</h3>
+							<div class="the-day-container">
+								<button id="seat46" onclick="obsadit(this.id)"></button>
+								<button id="seat47" onclick="obsadit(this.id)"></button>
+								<button id="seat48" onclick="obsadit(this.id)"></button>
+							</div>   
+						</div>   
+						<div class="time">
+							<h3>18:00</h3>
+							<div class="the-day-container">
+								<button id="seat49" onclick="obsadit(this.id)"></button>
+								<button id="seat50" onclick="obsadit(this.id)"></button>
+								<button id="seat51" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>   
+						<div class="time">
+							<h3>20:00</h3>
+							<div class="the-day-container">
+								<button id="seat52" onclick="obsadit(this.id)"></button>
+								<button id="seat53" onclick="obsadit(this.id)"></button>
+								<button id="seat54" onclick="obsadit(this.id)"></button>
+							</div>
+						</div>       
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+	</main>
+	
+	<footer class="footer">
+		
+			<span>&copy Jakub Průcha</span>
+		
+	</footer>
+
+
+	<script src="main.js"></script>
+</body>
+</html>

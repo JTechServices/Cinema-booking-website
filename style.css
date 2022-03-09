@@ -1,0 +1,160 @@
+/* 
+Table of contents:
+
+1. Layout
+
+2. Header
+
+3. Intro
+
+4. Main-content
+
+*/
+
+/* Layout */
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+:root {
+    
+    --grey: #232323;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: #232323;
+    color: #fff;
+    height: 100vh;
+    font-family: "Secular", "sans-serif" ;
+}
+
+.movie-container {
+    margin: 1.25em 0; /* 20/16 */
+    text-align: center;
+}
+
+.movie-container select {
+    background-color: #fff;
+    border: 0;
+    border-radius: 0.3125em; /* 5/16 */
+    font-size: 0.875em; /* 14/16 */
+    margin-left: 0.7142857142857143em; /* 10/14 */
+    margin-bottom: 0.7142857142857143em; /* 10/14 */
+    padding: 0.35714285714285715em 1.0714285714285714em 0.35714285714285715em 1.0714285714285714em; /* 5/14, 15/14 */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    
+}
+
+.wrapper {
+    max-width: 300px;
+    padding: 0px 10px;
+    margin: 0px auto;
+}
+
+@media(min-width: 768px) {
+    .wrapper {
+        max-width: 600px;
+    }
+}
+
+@media(min-width:980px) {
+    .wrapper {
+        max-width: 960px;
+    }
+}
+
+/* Header */
+
+#header {
+    height: 70px;
+    background: var(--grey);
+}
+
+#header h1 {
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+}
+
+@media(min-width: 768px){
+    #header h1 {
+        font-size: 32px;
+    }
+}
+
+
+
+/* Main-content */
+
+#main-content {
+    margin-top: 45px;
+    text-align: center;
+}
+
+@media (min-width: 768px){
+
+    .days-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+h2 {
+    margin-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff;
+}
+
+h2#first-t {
+    margin-top: 0px;
+}
+
+@media(min-width: 768px) {
+    h2#first-t {
+    margin-top: 15px;
+}
+}
+
+h3 {
+    margin: 10px 0px;
+    color: #7f8ea8;
+}
+
+button {
+    width: 90px;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+    button {
+        display: block;
+    }
+}
+
+button:hover {
+    background: var(--grey);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 15px; 
+}
+
+
+
